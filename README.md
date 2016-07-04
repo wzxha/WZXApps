@@ -2,7 +2,7 @@
 判断本机是否安装某些app <br>
 To determine whether the installation of some app
 
-# Api
+# API
 ```objc
 typedef NS_ENUM(NSInteger, WZX_Apps) {
     WZXApps_WeChat,
@@ -21,6 +21,7 @@ typedef NS_ENUM(NSInteger, WZX_Apps) {
 + (BOOL)wzx_haveTwitter;
 + (BOOL)wzx_haveInstagram;
 + (BOOL)wzx_haveAlipay;
+
 + (BOOL)wzx_haveThisApp:(WZX_Apps)app;
 + (BOOL)wzx_haveThisAppWithUrlScheme:(NSString *)urlScheme;
 + (BOOL)wzx_haveThisAppWithUrlSchemes:(NSArray <NSString *> *)urlSchemes;
