@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zn8-CJ-dpT">
+                                <rect key="frame" x="137" y="74" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="b2z-Qk-5To"/>
+                                    <constraint firstAttribute="height" constant="30" id="pFm-vO-gJe"/>
+                                </constraints>
+                                <state key="normal" title="QQ"/>
+                                <connections>
+                                    <action selector="haveQQ:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NIn-FA-QSh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4x-W6-1MW">
+                                <rect key="frame" x="137" y="131" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="2X8-Jf-9kh"/>
+                                    <constraint firstAttribute="height" constant="30" id="ekK-o9-Zya"/>
+                                </constraints>
+                                <state key="normal" title="WeChat"/>
+                                <connections>
+                                    <action selector="haveWeChat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K1H-Oe-Qdb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cny-gZ-bxw">
+                                <rect key="frame" x="137" y="193" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="VgK-dj-Msa"/>
+                                    <constraint firstAttribute="width" constant="100" id="WWV-NZ-8Tb"/>
+                                </constraints>
+                                <state key="normal" title="WeiBo"/>
+                                <connections>
+                                    <action selector="haveWeiBo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EIc-Uh-RVZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXv-p9-L1X">
+                                <rect key="frame" x="138" y="301" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0XA-2Y-Jwd"/>
+                                    <constraint firstAttribute="width" constant="100" id="cIC-1K-mN2"/>
+                                </constraints>
+                                <state key="normal" title="Twitter"/>
+                                <connections>
+                                    <action selector="haveTwitter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2F0-Ld-Bzr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzN-gD-LJH">
+                                <rect key="frame" x="137" y="355" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4OP-hP-r6T"/>
+                                    <constraint firstAttribute="height" constant="30" id="gtd-ci-VSx"/>
+                                </constraints>
+                                <state key="normal" title="Instagram"/>
+                                <connections>
+                                    <action selector="haveInstagram:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nn5-Gn-kvf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJm-Ri-5xz">
+                                <rect key="frame" x="137" y="249" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4CB-4p-5eX"/>
+                                    <constraint firstAttribute="width" constant="100" id="Zrr-0s-2mQ"/>
+                                </constraints>
+                                <state key="normal" title="Facebook"/>
+                                <connections>
+                                    <action selector="haveFacebook:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xle-7X-sT0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vJm-Ri-5xz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2jc-Nh-Sx0"/>
+                            <constraint firstItem="GXv-p9-L1X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="43i-Eq-EZJ"/>
+                            <constraint firstItem="vJm-Ri-5xz" firstAttribute="top" secondItem="Cny-gZ-bxw" secondAttribute="bottom" constant="26" id="7pn-RT-mHb"/>
+                            <constraint firstItem="bzN-gD-LJH" firstAttribute="top" secondItem="GXv-p9-L1X" secondAttribute="bottom" constant="24" id="8jK-h1-EXF"/>
+                            <constraint firstItem="H4x-W6-1MW" firstAttribute="top" secondItem="zn8-CJ-dpT" secondAttribute="bottom" constant="27" id="AdR-yw-RBq"/>
+                            <constraint firstItem="GXv-p9-L1X" firstAttribute="top" secondItem="vJm-Ri-5xz" secondAttribute="bottom" constant="22" id="HQU-aH-z9w"/>
+                            <constraint firstItem="Cny-gZ-bxw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ham-Xj-1UT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bzN-gD-LJH" secondAttribute="bottom" constant="0.5" id="KXP-BG-isQ"/>
+                            <constraint firstItem="zn8-CJ-dpT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="0.5" id="LnR-br-n9U"/>
+                            <constraint firstItem="Cny-gZ-bxw" firstAttribute="top" secondItem="H4x-W6-1MW" secondAttribute="bottom" constant="32" id="Odd-gT-bpS"/>
+                            <constraint firstItem="bzN-gD-LJH" firstAttribute="top" secondItem="GXv-p9-L1X" secondAttribute="bottom" constant="0.5" id="Ofr-OL-ISv"/>
+                            <constraint firstItem="zn8-CJ-dpT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P0X-eV-lPD"/>
+                            <constraint firstItem="H4x-W6-1MW" firstAttribute="top" secondItem="zn8-CJ-dpT" secondAttribute="bottom" constant="0.5" id="YWM-QA-Ixq"/>
+                            <constraint firstItem="bzN-gD-LJH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g8Q-H9-R0V"/>
+                            <constraint firstItem="H4x-W6-1MW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h0b-g1-LO4"/>
+                            <constraint firstItem="GXv-p9-L1X" firstAttribute="top" secondItem="vJm-Ri-5xz" secondAttribute="bottom" constant="0.5" id="o60-0f-tdV"/>
+                            <constraint firstItem="vJm-Ri-5xz" firstAttribute="top" secondItem="Cny-gZ-bxw" secondAttribute="bottom" constant="0.5" id="woC-sj-SMZ"/>
+                            <constraint firstItem="Cny-gZ-bxw" firstAttribute="top" secondItem="H4x-W6-1MW" secondAttribute="bottom" constant="0.5" id="xCo-6M-f5U"/>
+                            <constraint firstItem="H4x-W6-1MW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="131" id="xLl-XF-XCD"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="LnR-br-n9U"/>
+                                <exclude reference="YWM-QA-Ixq"/>
+                                <exclude reference="xCo-6M-f5U"/>
+                                <exclude reference="woC-sj-SMZ"/>
+                                <exclude reference="o60-0f-tdV"/>
+                                <exclude reference="Ofr-OL-ISv"/>
+                                <exclude reference="KXP-BG-isQ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="268.5" y="300.5"/>
+        </scene>
+    </scenes>
+</document>
