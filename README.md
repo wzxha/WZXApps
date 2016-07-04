@@ -4,6 +4,10 @@ To determine whether the installation of some app<br>
 **期待你能和我一起完善它<br>**
 **Expect you to be able to perfect it with me**
 
+# 注意事项
+目前需要手动添加URL Scheme到info，我将写一个Xcode插件.
+Currently need to manually add URL Scheme to info, I will write a Xcode plug-in.
+
 # API
 ```objc
 typedef NS_ENUM(NSInteger, WZX_Apps) {
