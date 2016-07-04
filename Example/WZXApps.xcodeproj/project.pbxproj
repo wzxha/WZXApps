@@ -513,6 +513,7 @@
 				1E175FD81D2A3DAC000E6D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E175FD91D2A3DAC000E6D56 /* Build configuration list for PBXNativeTarget "WZXAppsTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +522,7 @@
 				1E175FDB1D2A3DAC000E6D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E175FDC1D2A3DAC000E6D56 /* Build configuration list for PBXNativeTarget "WZXAppsUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +531,7 @@
 				1E175FDE1D2A3DAC000E6D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
