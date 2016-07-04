@@ -1,8 +1,8 @@
 # WZXApps
 判断本机是否安装某些app <br>
 To determine whether the installation of some app<br>
-期待你能和我一起完善它<br>
-Expect you to be able to perfect it with me
+**期待你能和我一起完善它<br>**
+**Expect you to be able to perfect it with me**
 
 # API
 ```objc
