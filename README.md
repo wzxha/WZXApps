@@ -5,8 +5,10 @@ To determine whether the installation of some app<br>
 **Expect you to be able to perfect it with me**
 
 # 注意事项
-目前需要手动添加URL Scheme到info，我将写一个Xcode插件.<br>
-Currently need to manually add URL Scheme to info, I will write a Xcode plug-in.
+~~目前需要手动添加URL Scheme到info，我将写一个Xcode插件.<br>~~
+~~Currently need to manually add URL Scheme to info, I will write a Xcode plug-in.~~
+[WZXAppsHelper] 帮助你快速添加白名单到Info.plist.<br>
+[WZXAppsHelper] Help you quickly add URL Scheme to Info.plist.
 
 # API
 ```objc
